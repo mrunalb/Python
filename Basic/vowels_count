@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+cnt = 0 
+print("We are calculating count of vowels in a string..!")
+str1 = input("Enter a string:")
+a_cnt = str1.count("a")
+e_cnt = str1.count("e")
+i_cnt = str1.count("i")
+o_cnt = str1.count("o")
+u_cnt = str1.count("u")
+cnt = a_cnt + e_cnt + i_cnt + o_cnt + u_cnt
+print("vowels count is :" , cnt)
