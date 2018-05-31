@@ -1,0 +1,7 @@
+if __name__ == "__main__":
+  num = 1
+  print("This will stop if you enter a number which is a multiple of 11:")
+  while (num % 11 != 0):
+    num = input("Enter a number:")
+    pass
+  print("Bye")
