@@ -1,0 +1,13 @@
+def reverse(num):
+  Rev = 0
+  while num > 0:
+    R = num % 10
+    Q = num // 10
+    num = Q
+    Rev = (Rev *10) + R
+  return Rev
+
+if __name__ == "__main__":
+  num = input("Enetr a number:")
+  Rev = reverse(num)
+  print "Reversed number is: "+str(Rev)
