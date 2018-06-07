@@ -1,0 +1,16 @@
+#check if the number is armstong or not
+
+def special_num(num):
+  i = 0
+  result = 0 
+  for i in str(num):
+    result = result + int(i) ** 3
+  return result
+
+if __name__ == "__main__":
+  num = input("Enter a number:")
+  result = special_num(num)
+  if result == num:
+    print("number is a special number")
+  else:
+    print("number is not a special number")
